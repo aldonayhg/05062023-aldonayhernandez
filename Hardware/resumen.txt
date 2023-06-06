@@ -1,0 +1,3 @@
+Memoria RAM
+CPU
+Memoria secundaria (HDD, SSD)
