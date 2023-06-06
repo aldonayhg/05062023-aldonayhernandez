@@ -1,0 +1,32 @@
+  444  git init
+  445  git remote add origin https://github.com/aldonayhg/05062023-aldonayhernandez.git
+  446  git status
+  447  git remote -v
+  448  touch comandos.txt main.js index.html
+  449  git add .
+  450  git commit -m "commit 01 de aldonayhernandez"
+  451  git push origin main
+  452  git branch feature01
+  453  git switch feature01
+  454  mkdir Terminal Hardware
+  455  cd Hardware/
+  456  touch resumen.txt
+  457  cd ..
+  458  cd Terminal/
+  459  touch resumen.txt
+  460  cd ..
+  461  ls -R
+  462  git status
+  463  git add .
+  464  git commit -m "commit 02 de aldonayhernandez"
+  465  git push origin feature01
+  466  git branch feature02
+  467  git switch feature02
+  468  ls -R
+  469  git status
+  470  git add .
+  471  git commit -m "commit 03 de aldonayhernandez"
+  472  git push origin feature02
+  473  git switch main
+  474  mv comandos.txt comandosUtilizados.txt
+  475  history
